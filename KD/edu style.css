@@ -1,0 +1,66 @@
+h2,ul{
+    display: inline;
+}
+ul{
+    margin-left: 45%;
+}
+li{
+   display: inline;
+    background-color: black;
+    color: wheat;   
+    padding: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+li:hover{
+    color: gray;
+}
+nav{
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    box-shadow: 3px 3px 10px black;
+}
+
+
+h1{
+
+    padding:8px;  
+    margin-top: 1px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 1px;
+    display: inline;
+    margin-left: 25%; 
+    border: 4px;
+    cursor: pointer;
+    box-shadow: 3px 1px 10px black;
+
+
+}
+.data h2{
+    background-color: rgb(22, 179, 106);
+    display:inline ;
+}
+button{
+    text-align: center;
+    margin-left: 45%; 
+    display: inline;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 3px 1px 10px black;
+    position: relative;
+    bottom: 25%;
+}
+
+body{
+    background-image: url(3.JPEG);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+img{
+    height: 800px;
+    width: 900px;
+    margin-left: 6%; 
+}

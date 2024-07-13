@@ -1,0 +1,333 @@
+ul{
+    display: inline;
+}
+ul{
+    margin-left: 45%;
+}
+li{
+   display: inline;
+    background-color: black;
+    color: wheat;   
+    padding: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+li:hover{
+    color: gray;
+}
+nav{
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    box-shadow: 3px 3px 10px black;
+}
+
+
+h1{
+
+    padding:8px;  
+    margin-top: 1px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 1px;
+    display: inline;
+    margin-left: 40%;
+    border: 4px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 3px 1px 10px black;
+}
+
+h3{
+    padding:10px;  
+    background-color: rgb(255, 255, 255);
+    margin-left: 10px;
+    display: inline;
+    cursor: pointer;
+    box-shadow: 3px 1px 10px black;
+
+}
+
+.proj{
+    margin-left: 6%; 
+}
+.data h2{
+    background-color: rgb(22, 179, 106);
+display: ;
+}
+  
+.cert{
+
+    margin-left: 6%; 
+}
+
+.cert2{
+
+    margin-left: 6%; 
+}
+
+
+body{
+    background-image: url(3.JPEG);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+img{
+
+    margin-left: 6%;
+    display: inline;
+    cursor: pointer;
+    margin-top: 2%;
+   
+}
+
+h2{
+    display: inline;
+     margin-bottom: 2%;
+     padding:10px;  
+     background-color: rgb(53, 53, 53);
+     position: relative;
+     left: 50px;
+     bottom: 50px;
+
+}
+button{
+    cursor: pointer;
+    box-shadow: 3px 1px 10px black;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 45%; 
+    display: inline;
+    background-color: rgb(147, 198, 199);
+}
+
+span{
+    color: rgb(255, 255, 255);
+}
+.skills{
+    position: relative;
+    margin-bottom: 40px;
+    
+}
+
+
+.skill-bar{
+    width: 100%;
+    background:rgba(255,255,255,0.6);
+    height: 40px;
+    z-index: -1;
+    border-radius: 100px;
+    position:absolute;
+}
+.skill-fill{
+    background-color: rgb(68, 68, 68);
+    height: 40px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 30px;
+    overflow: hidden;
+}
+.skill-percent{
+     font-size: 30px;
+}
+
+.skill-area{
+    display: flex;
+    flex-direction: column;
+    padding-left:  40%;
+    padding-right: 20%;
+    position: relative;
+    bottom: 13%;
+}
+
+
+.ex{
+    animation: ex 2s;
+    width: 63%;
+}
+
+
+@keyframes ex{
+    from{
+        width: 0;
+    }
+    to{
+        width: 63%;
+    }
+}
+
+@media only screen and (max-width:750px){
+    .skills{
+        padding: 0 5%;
+    }
+}
+
+.bi{
+    animation: bi 2s;
+    width: 68%;
+}
+
+
+@keyframes bi{
+    from{
+        width: 0;
+    }
+    to{
+        width: 68%;
+    }
+}
+
+@media only screen and (max-width:750px){
+    .skills{
+        padding: 0 5%;
+    }
+}
+.cc{
+    animation: cc 2s;
+    width: 71%;
+}
+
+
+@keyframes cc {
+    from{
+        width: 0;
+    }
+    to{
+        width: 71%;
+    }
+}
+
+@media only screen and (max-width:750px){
+    .skills{
+        padding: 0 5%;
+    }
+}
+.html{
+    animation: html 2s;
+    width: 83%;
+}
+
+
+@keyframes html{
+    from{
+        width: 0;
+    }
+    to{
+        width: 83%;
+    }
+}
+
+@media only screen and (max-width:750px){
+    .skills{
+        padding: 0 5%;
+    }
+}
+
+.css{
+    animation: css 2s;
+    width: 78%;
+}
+
+
+@keyframes css{
+    from{
+        width: 0;
+    }
+    to{
+        width: 78%;
+    }
+}
+
+@media only screen and (max-width:750px){
+    .skills{
+        padding: 0 5%;
+    }
+}
+.ps{
+    animation: ps 2s;
+    width: 78%;
+}
+
+
+@keyframes ps{
+    from{
+        width: 0;
+    }
+    to{
+        width: 78%;
+    }
+}
+
+@media only screen and (max-width:750px){
+    .skills{
+        padding: 0 5%;
+    }
+}
+
+
+.pr{
+    animation: pr 2s;
+    width: 68%;
+}
+
+
+@keyframes pr{
+    from{
+        width: 0;
+    }
+    to{
+        width: 68%;
+    }
+}
+
+@media only screen and (max-width:750px){
+    .skills{
+        padding: 0 5%;
+    }
+}
+.ii{
+    animation: ii 2s;
+    width: 69%;
+}
+
+
+@keyframes ii{
+    from{
+        width: 0;
+    }
+    to{
+        width: 69%;
+    }
+}
+
+@media only screen and (max-width:750px){
+    .skills{
+        padding: 0 5%;
+    }
+}
+.bl{
+    animation: bl 2s;
+    width: 75%;
+}
+
+
+@keyframes bl{
+    from{
+        width: 0;
+    }
+    to{
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width:750px){
+    .skills{
+        padding: 0 5%;
+    }
+}
+
+
+
